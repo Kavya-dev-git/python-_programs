@@ -1,0 +1,6 @@
+f=open('sample.txt','r')
+content=f.read()
+g=open('copy.txt','w')
+g.write(content)
+f.close()
+g.close()
